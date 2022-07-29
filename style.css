@@ -1,0 +1,43 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("unnamed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1500px;
+  height: 1500px;
+  background-attachment: fixed;
+  text-align: center;
+  vertical-align: middle;
+}
+#dog-img {
+  width: 350px;
+  height: 300px;
+  object-fit: contain;
+}
+.container {
+  width: 400px;
+
+  border-bottom: 8px;
+  margin: 60px auto;
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 8px;
+}
+.button {
+  cursor: pointer;
+  font-size: 15px;
+}
+.heading {
+  margin-top: 20px;
+  color: #878eb3;
+  align-content: center;
+}
+.col-sm-9 {
+  margin-left: 70px;
+  margin-top: 1px;
+  width: 90%;
+}
+.col-3 {
+  margin-left: 70px;
+  width: 90%;
+}
